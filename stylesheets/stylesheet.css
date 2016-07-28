@@ -572,7 +572,13 @@ pre code {
   border: none;
 }
 
-ul, ol, dl {
+dl {
+  font-family: "Microsoft YaHei" ! important;
+  margin-bottom: 20px;
+}
+
+
+ul, ol {
   margin-bottom: 20px;
 }
 
@@ -650,7 +656,8 @@ form {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
-  color: #474747;
+  /*color: #474747;*/
+  color: #1a75ff;
   text-indent: 3px;
 }
 
@@ -706,6 +713,7 @@ h6:before {
 }
 
 p {
+  font-family: "Microsoft YaHei" ! important;
   margin-bottom: 20px;
 }
 
